@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecad.css">
+    <link rel="shortcut icon" href="img/logoo.png" type="image/icon" />
+    <title>Access Pro</title>
+</head>
+<body>
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <a href="index.html" ><img src='images/Access_Pro__2_-removebg-preview.png'></a>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="name">Nome</label>
+            <input type="name" placeholder="Digite seu nome completo" autofocus="true" />
+
+            <label for="number">Código</label>
+            <input type="number" placeholder="Digite seu código institucional" />
+
+            <label for="email">Email</label>
+            <input type="email" placeholder="Digite seu email institucional" />
+
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" />
+
+            <label for="password">Confirmar senha</label>
+            <input type="password" placeholder="Confirme sua senha" />
+
+
+            <p>Já tem uma conta?<a href="login.html">Logar-se</a></p>
+
+
+            <a href="/">Esqueci minha senha</a>
+
+            <input type="submit" class="btn btn-primary" id="btn_cadastro" value="Acessar" class="btn" onclick="cadastro()"></input>
+
+            
+        </form>
+    </div>
+    
+    <script> function cadastro(){
+        alert('Cadastrado com sucesso!!!');
+      }</script>
+</body>
+</html>

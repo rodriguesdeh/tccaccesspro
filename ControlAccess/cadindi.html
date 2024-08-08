@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadindi.css">
+    <link rel="shortcut icon" href="../images/logofaetec.png" type="image/icon" />
+    <title>Cadastro de Indivíduo</title>
+</head>
+<body>
+    <div class="container"> 
+        <a href='../index.html' ><img class="img" src='./../images/logofaetec.png'></a>
+     <main>
+         <div class="header">
+           <h2>Cadastro de Indivíduo</h2>
+           <h3>Instituição: FAETEC</h3>
+         </div >
+        
+         <div class="page"><form method="POST" class="formLogin" >
+           
+            <label for="name">Nome:</label>
+            <input type="name" placeholder="Digite o nome completo" autofocus="true" />
+            <br>
+            <label for="number">Código</label>
+            <input type="number" placeholder="Digite seu código institucional" />
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Digite o email institucional" />
+            <br>
+            <label for="password">Data de início:</label>
+            <input type="date" placeholder="Digite a data de início" />
+            <br>
+            <label for="password">Data de término:</label>
+            <input type="date" placeholder="Digite a data de término" />
+
+            <input type="submit" 
+           
+            class="button" id="btn_cadastro" value="Cadastrar indivíduo" class="btn" onclick="cadastro()"></input>
+            <br>
+            <a class="back" href="controledeacesso.html"><p> Voltar</p></a>
+
+        </div>
+
+        
+        
+
+        
+    </div>
+   
+    
+    <script src="code.js"></script>
+</body>
+</html>
